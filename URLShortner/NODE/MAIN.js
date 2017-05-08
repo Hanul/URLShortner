@@ -3,7 +3,7 @@ URLShortner.MAIN = METHOD({
 	run : function(addRequestListener) {
 		'use strict';
 		
-		addRequestListener(function(requestInfo, response, onDisconnected, replaceRootPath, next) {
+		addRequestListener(function(requestInfo, response, replaceRootPath, next) {
 
 			var
 			// uri

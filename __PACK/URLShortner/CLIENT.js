@@ -1,1 +1,0 @@
-URLShortner.LinkModel=OBJECT({preset:function(){"use strict";return URLShortner.MODEL},params:function(){"use strict";var t={url:{notEmpty:!0,size:{max:2e3}},count:{notEmpty:!0,integer:!0}};return{name:"Link",isNotUsingObjectId:!0,initData:{count:0},methodConfig:{create:{valid:VALID(t)},update:!1,remove:!1}}}});
